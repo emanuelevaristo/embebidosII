@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <string name="app_name">VG Store</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="strNom">First Name</string>
+    <string name="strApe">Last Name</string>
+    <string name="strTel">Phone</string>
+    <string name="strCorreo">Email</string>
+    <string name="strUsua">User</string>
+    <string name="strContra">Password</string>
+    <string name="strGuardar">Save</string>
+    <string name="strEntrar">Log In</string>
+    <string name="strNombre">Name</string>
+    <string name="strPrecio">Price $</string>
+    <string name="strCons">Console</string>
+    <string name="strBuscar">Search</string>
+    <string name="strContacto">Contact</string>
+    <string name="strSeparar">Reserve</string>
+    <string name="strDesc">Description</string>
+    <string name="strEntrega">Place</string>
+    <string name="strStatus">Status</string>
+    <string name="strPreguntas">Questions</string>
+    <string name="strIS">Log In</string>
+    <string name="strMenu">Main Menu</string>
+    <string name="strAddVJ">Add Video Game</string>
+    <string name="strAddUser">Sign Up</string>
+    <string name="strVJ">Video Game</string>
+    <string name="strEditVJ">Edit Video Game</string>
+    <string name="strVJS">My Games</string>
+    <string name="strVer">Watch</string>
+    <string name="strReg">Sign up</string>
+    <string name="strncs">Do not sign out</string>
+    <string name="strcs">Sign out</string>
+    <string name="strress">No account yet?</string>
+    <string name="strBorrar">Delete</string>
+
+    <string name="str_btn_config_save">Save</string>
+    <string name="str_lbl_config_lang">Language</string>
+    <string name="str_lbl_config_colors">Background Color</string>
+    <string-array name="str_array_config_lang">
+        <item>Spanish</item>
+        <item>English</item>
+        <item>French</item>
+    </string-array>
+    <string-array name="str_array_config_colors">
+        <item>Default</item>
+        <item>Heavenly</item>
+        <item>Green</item>
+    </string-array>
+
+    <string-array name="str_array_sectionsTitle">
+        <item>Video Games</item>
+        <item>My Games</item>
+        <item>Add Video Game</item>
+        <item>Settings</item>
+    </string-array>
+    <string name="title_activity_detalle">Detail</string>
+
+    <string name="title_activity_main2">Sale of Video games</string>
+    <string name="share">Share</string>
+
+    <string name="facebook_app_id">511282665716306</string>
+</resources>

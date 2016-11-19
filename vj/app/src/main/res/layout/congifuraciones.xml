@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/str_lbl_config_lang"
+        android:id="@+id/lblConfigLang"
+        android:layout_above="@+id/spConfigLang"
+        android:layout_alignParentStart="true" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spConfigLang"
+        android:entries="@array/str_array_config_lang"
+        android:layout_above="@+id/lblConfigColors"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="43dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/str_lbl_config_colors"
+        android:id="@+id/lblConfigColors"
+        android:layout_above="@+id/spConfigColors"
+        android:layout_alignParentStart="true" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spConfigColors"
+        android:entries="@array/str_array_config_colors"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true" />
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str_btn_config_save"
+        android:id="@+id/btnConfigSave"
+        android:fontFamily="trebuchet ms"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_below="@+id/spConfigColors"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/strcs"
+        android:id="@+id/btnCerrarSesion"
+        android:fontFamily="trebuchet ms"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

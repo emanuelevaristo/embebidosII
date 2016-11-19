@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VG Store</string>
+
+    <string name="action_settings">Paramètres</string>
+
+    <string name="strNom">Prénom</string>
+    <string name="strApe">Nom de famille</string>
+    <string name="strTel">Téléphone</string>
+    <string name="strCorreo">Adresse e-mail</string>
+    <string name="strUsua">Utilisateur</string>
+    <string name="strContra">Mot de passe</string>
+    <string name="strGuardar">Sauver</string>
+    <string name="strEntrar">Connexion</string>
+    <string name="strNombre">Prénom</string>
+    <string name="strPrecio">Prix</string>
+    <string name="strCons">Console</string>
+    <string name="strBuscar">Chercher</string>
+    <string name="strContacto">Contact</string>
+    <string name="strSeparar">Livre</string>
+    <string name="strDesc">Détail</string>
+    <string name="strEntrega">Placer</string>
+    <string name="strStatus">État</string>
+    <string name="strPreguntas">Interrogations</string>
+    <string name="strIS">Connexion</string>
+    <string name="strMenu">Menu Principal</string>
+    <string name="strAddVJ">Ajouter Jeu</string>
+    <string name="strAddUser">Inscription</string>
+    <string name="strVJ">Jeu</string>
+    <string name="strEditVJ">Modifier Jeu</string>
+    <string name="strVJS">Mes Jeux</string>
+    <string name="strVer">Regarde</string>
+    <string name="strReg">Inscription</string>
+    <string name="strncs">Dont près séance</string>
+    <string name="strcs">Desconnexion</string>
+    <string name="strress">Vous ne recevez pas un compte?</string>
+    <string name="strBorrar">Supprimer</string>
+
+    <string name="str_btn_config_save">Sauver</string>
+    <string name="str_lbl_config_lang">Langue</string>
+    <string name="str_lbl_config_colors">Couleur de Fond</string>
+
+    <string-array name="str_array_config_lang">
+        <item>Español</item>
+        <item>English</item>
+        <item>Français</item>
+    </string-array>
+
+    <string-array name="str_array_config_colors">
+        <item>Default</item>
+        <item>paradisiaque</item>
+        <item>Vert</item>
+    </string-array>
+
+    <string-array name="str_array_sectionsTitle">
+        <item>Jeux</item>
+        <item>Mes Jeux</item>
+        <item>Ajouter Jeu</item>
+        <item>Paramètres</item>
+    </string-array>
+    <string name="title_activity_detalle">Détail</string>
+
+    <string name="title_activity_main2">Connexion</string>
+    <string name="share">Part</string>
+
+    <string name="facebook_app_id">511282665716306</string>
+</resources>

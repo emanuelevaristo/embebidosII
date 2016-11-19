@@ -1,0 +1,104 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="200dp" android:id="@+id/map2" tools:context=".MapsActivity"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_below="@+id/txEntrega" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/strEntrega"
+        android:id="@+id/txEntrega"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:ems="10"
+        android:id="@+id/txtNombre"
+        android:hint="@string/strNombre"
+        android:layout_alignTop="@+id/fotoArticulo"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/fotoArticulo" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/txtPrecio"
+        android:layout_weight="0"
+        android:gravity="top"
+        android:hint="@string/strPrecio"
+        android:layout_below="@+id/txtNombre"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/textView3" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/txtDescripcion"
+        android:gravity="top"
+        android:hint="@string/strDesc"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/txtConsola"
+        android:layout_below="@+id/txtPrecio"
+        android:layout_alignEnd="@+id/txtPrecio" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:ems="10"
+        android:id="@+id/txtConsola"
+        android:layout_weight="0"
+        android:hint="@string/strCons"
+        android:layout_above="@+id/btnGuardar"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/txtDescripcion" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/strGuardar"
+        android:id="@+id/btnGuardar"
+        android:layout_weight="0.12"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fotoArticulo"
+        android:scaleType="fitXY"
+        android:layout_above="@+id/btnGuardar"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/txtDescripcion"
+        android:layout_below="@+id/map2" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:layout_alignEnd="@+id/fotoArticulo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="LargedssdfdsfText"
+        android:id="@+id/textView3"
+        android:singleLine="true"
+        android:visibility="invisible" />
+
+</RelativeLayout>
